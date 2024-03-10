@@ -1,0 +1,8 @@
+#see in copy . . command it will copy the entire node modules folder as well
+#but we have all the environment setup in the parent image itself
+#so we no need to do this so we can specify that in .dockerignore 
+
+
+node_modules
+
+# *.md -> means ignore any files to copy into the image that has an extension md
